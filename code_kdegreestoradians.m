@@ -7,5 +7,5 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-
+/**/
 #define kDegreesToRadians(__degree__) (((__degree__) / 180.f) * M_PI)
