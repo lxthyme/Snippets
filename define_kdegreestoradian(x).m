@@ -13,5 +13,5 @@
  */
 #define kDegreesToRadian(__degree__) (M_PI * (__degree__) / 180.0)
 
-#define KRadianToDegrees(radian) ((<#radian#>) * 180.0) / (M_PI)
+#define KRadianToDegrees(__radian__) ((<#radian#>) * 180.0) / (M_PI)
 
