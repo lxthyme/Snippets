@@ -7,11 +7,11 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
+#ifndef kDegreesToRadian
 /**
  *  1`由角度获取弧度
  *  2`由弧度获取角度
  */
 #define kDegreesToRadian(__degree__) (M_PI * (__degree__) / 180.0)
-
 #define KRadianToDegrees(__radian__) ((__radian__) * 180.0) / (M_PI)
-
+#endif
